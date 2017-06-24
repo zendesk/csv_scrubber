@@ -1,4 +1,4 @@
-It is awesome
+Awesome srubber for csv processing, macro string escaping and stuff
 
 Install
 =======

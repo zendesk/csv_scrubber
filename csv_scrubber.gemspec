@@ -3,7 +3,7 @@ $LOAD_PATH << File.expand_path("../lib", __FILE__)
 require "#{name.tr("-", "/")}/version"
 
 Gem::Specification.new name, CsvScrubber::VERSION do |s|
-  s.summary = "It is awesome"
+  s.summary = "Awesome srubber for csv processing, macro string escaping and stuff"
   s.authors = ["Michael Grosser"]
   s.email = "michael@grosser.it"
   s.homepage = "https://github.com/grosser/#{name}"
