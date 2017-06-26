@@ -11,12 +11,16 @@ Usage
 =====
 
 ```Ruby
-CODE EXAMPLE
+require 'csv_scrubber'
+
+...
+
+Zendesk::CsvScrubber.scrub_output(value)
 ```
 
 Author
 ======
-[Michael Grosser](http://grosser.it)<br/>
-michael@grosser.it<br/>
+[Miguel Tineo](http://github.com/miketineo)<br/>
+miketineo@gmail.com<br/>
 License: MIT<br/>
-[![Build Status](https://travis-ci.org/grosser/csv_scrubber.png)](https://travis-ci.org/grosser/csv_scrubber)
+[![Build Status](https://travis-ci.org/grosser/csv_scrubber.png)](https://travis-ci.org/zendesk/csv_scrubber)
